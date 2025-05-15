@@ -1,0 +1,14 @@
+spring:
+  application:
+    name:
+      consumer-project
+
+  kafka:
+    consumer:
+      group-id: "default"
+
+server:
+  port: 8081
+
+topic:
+  name: t.my.topic
